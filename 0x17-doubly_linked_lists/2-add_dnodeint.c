@@ -20,7 +20,7 @@ new->n = n;
 new->prev = NULL;
 h = *head;
 if (h != NULL)
-{    
+{
 while (h->prev != NULL)
 h = h->prev;
 }
